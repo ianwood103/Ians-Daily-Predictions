@@ -1,0 +1,52 @@
+body {
+  background-color: #FFF8F0; }
+
+.header-section {
+  text-align: center;
+  padding-top: 2.5em;
+  color: #0E1428;
+  margin-bottom: 5em; }
+  .header-section #main-header {
+    font-family: "Luckiest Guy", cursive; }
+  .header-section #description {
+    font-family: "Roboto", sans-serif; }
+
+.table-section {
+  margin: auto;
+  text-align: center;
+  color: #0E1428; }
+  .table-section .good-player-section {
+    float: left;
+    margin-left: 10%;
+    width: 35%; }
+  .table-section .bad-player-section {
+    float: right;
+    margin-right: 10%;
+    width: 35%; }
+  .table-section .player-table {
+    width: 100%;
+    border: 4px solid #F9564F; }
+    .table-section .player-table tr {
+      height: 5em; }
+    .table-section .player-table .player-table-header {
+      background-color: #01BAEF;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.5em; }
+    .table-section .player-table .player-row {
+      border: 1px solid black; }
+      .table-section .player-table .player-row:hover {
+        border: 4px solid #F9564F; }
+      .table-section .player-table .player-row .player-headshot {
+        width: 20%; }
+      .table-section .player-table .player-row .player {
+        font-family: "Oswald";
+        font-size: 1.5em;
+        text-align: left; }
+      .table-section .player-table .player-row .player-logo {
+        width: 15%; }
+        .table-section .player-table .player-row .player-logo img {
+          width: 60%; }
+  .table-section .clearfix {
+    clear: both; }
+
+/*# sourceMappingURL=style.css.map */

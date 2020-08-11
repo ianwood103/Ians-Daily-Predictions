@@ -1,0 +1,86 @@
+$cyan-process: #01BAEF;
+$oxford-blue: #0E1428;
+$tart-orange: #F9564F;
+$floral-white: #FFF8F0;
+
+body {
+    background-color: $floral-white;
+}
+
+.header-section {
+    text-align: center;
+    padding-top: 2.5em;
+    color: $oxford-blue;
+    margin-bottom: 5em;
+
+    #main-header {
+        font-family: "Luckiest Guy", cursive;
+    }
+
+    #description {
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+.table-section {
+    margin: auto;
+    text-align: center;
+    color: $oxford-blue;
+
+    .good-player-section {
+        float: left;
+        margin-left: 10%;
+        width: 35%;
+    }
+
+    .bad-player-section {
+        float: right;
+        margin-right: 10%;
+        width: 35%;
+    }
+
+    .player-table {
+        width: 100%;
+        border: 4px solid $tart-orange;
+
+        tr {
+            height: 5em;
+        }
+
+        .player-table-header {
+            background-color: $cyan-process;
+            font-family: "Roboto", sans-serif;
+            font-size: 1.5em;
+        }
+
+        .player-row {
+            border: 1px solid black;
+
+            &:hover {
+                border: 4px solid $tart-orange;
+            }
+
+            .player-headshot {
+                width: 20%;
+            }
+
+            .player {
+                font-family: "Oswald";
+                font-size: 1.5em;
+                text-align: left;
+            }
+
+            .player-logo {
+                width: 15%;
+
+                img {
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    .clearfix {
+        clear: both;
+    }
+}
