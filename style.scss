@@ -11,15 +11,23 @@ body {
     text-align: center;
     padding-top: 2.5em;
     color: $oxford-blue;
-    margin-bottom: 5em;
 
     #main-header {
         font-family: "Luckiest Guy", cursive;
+        font-size: 4em;
     }
 
     #description {
         font-family: "Roboto", sans-serif;
     }
+}
+
+#page-break {
+    width: 90%;
+    height: 2px;
+    background-color: $tart-orange;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 .table-section {
@@ -54,11 +62,8 @@ body {
         }
 
         .player-row {
-            border: 1px solid black;
-
-            &:hover {
-                border: 4px solid $tart-orange;
-            }
+            border: 4px solid $tart-orange;
+            background-color: white;
 
             .player-headshot {
                 width: 20%;
